@@ -1,0 +1,17 @@
+body {
+  font-family: Verdana;
+  box-sizing: border-box;
+}
+form {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+#divData,
+#mainDiv {
+  display: grid;
+  
+  box-shadow: 0 0 0 0.2em #575152;
+  margin: 2em;
+  padding: 0.5em;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="#">
+      <div id="mainDiv">
+        <div id="divData">
+          <label for="name"
+            >Imie:
+            <input type="text" id="name" value="Adam" />
+          </label>
+          <label for="lastname"
+            >Nazwisko:
+            <input type="text" id="lastname" value="Nowak" />
+          </label>
+          <input type="submit" id="submit" value="Wyswietl" />
+          <input type="reset" id="erease" value="Wyczyść" />
+        </div>
+        <h3>dodane objekty:</h3>
+        <ol id="displayList"></ol>
+      </div>
+    </form>
+    <script src="/app.js"></script>
+  </body>
+</html>
